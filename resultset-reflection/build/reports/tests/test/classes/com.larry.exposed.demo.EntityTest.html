@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - EntityTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>EntityTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.larry.exposed.demo.html">com.larry.exposed.demo</a> &gt; EntityTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1.346s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">test1()</td>
+<td class="success">1.346s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>00:23:54.991 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@277050dc
+00:23:55.012 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+00:23:55.019 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension................................false
+00:23:55.019 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit................................true
+00:23:55.019 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - catalog................................none
+00:23:55.020 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql................................none
+00:23:55.020 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery................................none
+00:23:55.020 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout................................30000
+00:23:55.021 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - dataSource................................none
+00:23:55.021 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName................................none
+00:23:55.021 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI................................none
+00:23:55.022 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties................................{password=&lt;masked&gt;}
+00:23:55.023 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................................&quot;com.mysql.cj.jdbc.Driver&quot;
+00:23:55.023 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName................................none
+00:23:55.023 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties................................{}
+00:23:55.023 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry................................none
+00:23:55.024 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout................................600000
+00:23:55.024 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout................................1
+00:23:55.024 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries................................false
+00:23:55.025 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl................................jdbc:mysql://localhost:3306/exposed_db?useSSL=false&amp;serverTimezone=Asia/Seoul&amp;autoReconnect=true
+00:23:55.025 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime................................0
+00:23:55.025 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold................................0
+00:23:55.025 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime................................1800000
+00:23:55.025 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize................................10
+00:23:55.026 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry................................none
+00:23:55.026 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory................................none
+00:23:55.026 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle................................10
+00:23:55.026 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - password................................&lt;masked&gt;
+00:23:55.026 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - poolName................................&quot;HikariPool-1&quot;
+00:23:55.027 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - readOnly................................false
+00:23:55.027 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans................................false
+00:23:55.027 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor................................none
+00:23:55.027 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - schema................................none
+00:23:55.028 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory................................internal
+00:23:55.028 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation................................default
+00:23:55.028 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - username................................&quot;root&quot;
+00:23:55.028 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout................................5000
+00:23:55.030 [Test worker] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:23:55.333 [Test worker] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2af736c2
+00:23:55.335 [Test worker] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:23:55.442 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+00:23:55.465 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3a6134c4
+00:23:55.484 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7b5c3eff
+00:23:55.504 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4a6d668b
+00:23:55.524 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1b73c1b0
+00:23:55.543 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@e758018
+00:23:55.560 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1f3d3e6a
+00:23:55.579 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@21777165
+00:23:55.596 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3acec41a
+00:23:55.614 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@9926c02
+00:23:55.614 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+00:23:56.146 [Test worker] DEBUG Exposed - INSERT INTO Cities (`name`) VALUES ('St. Petersburg')
+SQL: INSERT INTO Cities (`name`) VALUES ('St. Petersburg')
+00:23:56.164 [Test worker] DEBUG Exposed - SELECT * FROM Cities
+SQL: SELECT * FROM Cities
+00:23:56.169 [Test worker] DEBUG Exposed - SELECT * FROM Cities
+SQL: SELECT * FROM Cities
+[CityDto(id=1, name=St. Petersburg), CityDto(id=2, name=St. Petersburg)]
+[CityDto(id=1, name=St. Petersburg), CityDto(id=2, name=St. Petersburg)]
+00:23:56.187 [Test worker] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@2af736c2
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.1</a> at 2021. 8. 5. 오전 12:23:56</p>
+</div>
+</div>
+</body>
+</html>

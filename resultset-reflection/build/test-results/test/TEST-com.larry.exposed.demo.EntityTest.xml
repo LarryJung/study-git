@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.larry.exposed.demo.EntityTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-04T15:23:54" hostname="larrycharryui-MacBookPro.local" time="1.346">
+  <properties/>
+  <testcase name="test1()" classname="com.larry.exposed.demo.EntityTest" time="1.346"/>
+  <system-out><![CDATA[00:23:54.991 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@277050dc
+00:23:55.012 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+00:23:55.019 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension................................false
+00:23:55.019 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit................................true
+00:23:55.019 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - catalog................................none
+00:23:55.020 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql................................none
+00:23:55.020 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery................................none
+00:23:55.020 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout................................30000
+00:23:55.021 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - dataSource................................none
+00:23:55.021 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName................................none
+00:23:55.021 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI................................none
+00:23:55.022 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties................................{password=<masked>}
+00:23:55.023 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................................"com.mysql.cj.jdbc.Driver"
+00:23:55.023 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName................................none
+00:23:55.023 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties................................{}
+00:23:55.023 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry................................none
+00:23:55.024 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout................................600000
+00:23:55.024 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout................................1
+00:23:55.024 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries................................false
+00:23:55.025 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl................................jdbc:mysql://localhost:3306/exposed_db?useSSL=false&serverTimezone=Asia/Seoul&autoReconnect=true
+00:23:55.025 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime................................0
+00:23:55.025 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold................................0
+00:23:55.025 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime................................1800000
+00:23:55.025 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize................................10
+00:23:55.026 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry................................none
+00:23:55.026 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory................................none
+00:23:55.026 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle................................10
+00:23:55.026 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - password................................<masked>
+00:23:55.026 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - poolName................................"HikariPool-1"
+00:23:55.027 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - readOnly................................false
+00:23:55.027 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans................................false
+00:23:55.027 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor................................none
+00:23:55.027 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - schema................................none
+00:23:55.028 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory................................internal
+00:23:55.028 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation................................default
+00:23:55.028 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - username................................"root"
+00:23:55.028 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout................................5000
+00:23:55.030 [Test worker] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:23:55.333 [Test worker] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2af736c2
+00:23:55.335 [Test worker] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:23:55.442 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+00:23:55.465 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3a6134c4
+00:23:55.484 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7b5c3eff
+00:23:55.504 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4a6d668b
+00:23:55.524 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1b73c1b0
+00:23:55.543 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@e758018
+00:23:55.560 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1f3d3e6a
+00:23:55.579 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@21777165
+00:23:55.596 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3acec41a
+00:23:55.614 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@9926c02
+00:23:55.614 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+00:23:56.146 [Test worker] DEBUG Exposed - INSERT INTO Cities (`name`) VALUES ('St. Petersburg')
+SQL: INSERT INTO Cities (`name`) VALUES ('St. Petersburg')
+00:23:56.164 [Test worker] DEBUG Exposed - SELECT * FROM Cities
+SQL: SELECT * FROM Cities
+00:23:56.169 [Test worker] DEBUG Exposed - SELECT * FROM Cities
+SQL: SELECT * FROM Cities
+[CityDto(id=1, name=St. Petersburg), CityDto(id=2, name=St. Petersburg)]
+[CityDto(id=1, name=St. Petersburg), CityDto(id=2, name=St. Petersburg)]
+00:23:56.187 [Test worker] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@2af736c2
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
