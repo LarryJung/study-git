@@ -1,0 +1,12 @@
+.gradle
+**/build/**
+gradle/wrapper
+!gradle/wrapper/gradle-wrapper.jar
+
+*.class
+
+*.war
+*.ear
+
+.idea
+scraping/node_modules/**
